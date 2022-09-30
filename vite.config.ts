@@ -7,4 +7,5 @@ export default defineConfig({
       adapter: "solid-start-cloudflare-workers",
     }),
   ],
+  ssr: {},
 });

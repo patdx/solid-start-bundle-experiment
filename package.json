@@ -2,8 +2,9 @@
   "name": "solid-start-2022-09-30",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start"
+    "build": "solid-start build && wrangler publish --dry-run --outdir dist-cloudflare",
+    "start": "solid-start start",
+    "clean": "rm -rf dist .solid"
   },
   "type": "module",
   "devDependencies": {
@@ -22,6 +23,7 @@
     "@solidjs/meta": "^0.28.0",
     "@solidjs/router": "^0.4.3",
     "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
     "solid-js": "^1.5.4",
     "solid-start": "^0.1.0",
     "solid-start-cloudflare-workers": "^0.1.1",
