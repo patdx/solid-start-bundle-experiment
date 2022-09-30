@@ -1,6 +1,5 @@
-
-dist
-.solid
+# dist
+/.solid/inspect
 .output
 .vercel
 .netlify
