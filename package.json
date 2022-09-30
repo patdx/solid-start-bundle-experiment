@@ -1,0 +1,33 @@
+{
+  "name": "solid-start-2022-09-30",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.16.0",
+    "autoprefixer": "^10.4.9",
+    "postcss": "^8.4.16",
+    "solid-start-node": "^0.1.0",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.8.3",
+    "vite": "^3.1.0",
+    "wrangler": "^2.1.9"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0",
+    "@graphql-yoga/common": "^2.12.12",
+    "@solidjs/meta": "^0.28.0",
+    "@solidjs/router": "^0.4.3",
+    "graphql": "^16.6.0",
+    "solid-js": "^1.5.4",
+    "solid-start": "^0.1.0",
+    "solid-start-cloudflare-workers": "^0.1.1",
+    "undici": "^5.10.0"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

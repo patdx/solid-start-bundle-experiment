@@ -1,0 +1,8 @@
+name = "solid-start-2022-09-30"
+compatibility_date = "2022-09-30"
+
+main = "./dist/server.js"
+[site]
+bucket= "./dist/public"
+
+# compatibility_flags = ["streams_enable_constructors"]
