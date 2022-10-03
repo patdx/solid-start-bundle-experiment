@@ -3,8 +3,7 @@ compatibility_date = "2022-09-30"
 
 send_metrics = false
 
-main = "./.solid/server/server.js"
-# main = "./dist/server.js"
+main = "./dist/server.js"
 [site]
 bucket= "./dist/public"
 
