@@ -2,7 +2,7 @@
   "name": "solid-start-2022-09-30",
   "scripts": {
     "dev": "solid-start dev",
-    "build": "solid-start build && wrangler publish --dry-run --outdir dist-cloudflare",
+    "build": "solid-start build && wrangler publish --dry-run",
     "start": "solid-start start",
     "clean": "rm -rf dist .solid"
   },
@@ -11,6 +11,7 @@
     "@cloudflare/workers-types": "^3.16.0",
     "autoprefixer": "^10.4.9",
     "postcss": "^8.4.17",
+    "prettier": "^2.7.1",
     "solid-start-node": "0.1.2",
     "tailwindcss": "^3.1.8",
     "typescript": "^4.8.3",
@@ -31,5 +32,10 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "solid-start-cloudflare-workers@0.1.2": "patches/solid-start-cloudflare-workers@0.1.2.patch"
+    }
   }
 }
