@@ -1,0 +1,45 @@
+diff --git a/package.json b/package.json
+index aed77eecf35d60f3a568e3b6ca4ff911ce6bc384..8478b2ebeba3c59e32bc8101cecf44cd22e35b3f 100644
+--- a/package.json
++++ b/package.json
+@@ -11,10 +11,6 @@
+   },
+   "main": "./dist/server.cjs",
+   "module": "./dist/server.js",
+-  "browser": {
+-    "./dist/server.cjs": "./dist/solid.cjs",
+-    "./dist/server.js": "./dist/solid.js"
+-  },
+   "unpkg": "./dist/solid.cjs",
+   "types": "types/index.d.ts",
+   "sideEffects": false,
+diff --git a/store/package.json b/store/package.json
+index 252dd14b8c3c4b9c2bd84cc9c117176912b5b223..ffd2889042a12c4ca352779ddc84c8f571789060 100644
+--- a/store/package.json
++++ b/store/package.json
+@@ -2,10 +2,6 @@
+   "name": "solid-js/store",
+   "main": "./dist/server.cjs",
+   "module": "./dist/server.js",
+-  "browser": {
+-    "./dist/server.cjs": "./dist/store.cjs",
+-    "./dist/server.js": "./dist/store.js"
+-  },
+   "unpkg": "./dist/store.cjs",
+   "types": "./types/index.d.ts",
+   "type": "module",
+diff --git a/web/package.json b/web/package.json
+index fee7a002f4418f67b2f9f2c6fd202e2c94fc5e21..f4b2a9881a58ecf0f5d3412d6d415e57579e9f74 100644
+--- a/web/package.json
++++ b/web/package.json
+@@ -2,10 +2,6 @@
+   "name": "solid-js/web",
+   "main": "./dist/server.cjs",
+   "module": "./dist/server.js",
+-  "browser": {
+-    "./dist/server.cjs": "./dist/web.cjs",
+-    "./dist/server.js": "./dist/web.js"
+-  },
+   "unpkg": "./dist/web.cjs",
+   "types": "./types/index.d.ts",
+   "type": "module",
