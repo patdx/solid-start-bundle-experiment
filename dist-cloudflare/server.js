@@ -5769,11 +5769,11 @@ var route_manifest_default = {
   "/": [
     {
       type: "script",
-      href: "/assets/index.bee6bd2e.js"
+      href: "/assets/index.af6c29ac.js"
     },
     {
       type: "script",
-      href: "/assets/entry-client.6a1fa440.js"
+      href: "/assets/entry-client.b0117054.js"
     },
     {
       type: "style",
@@ -5783,7 +5783,7 @@ var route_manifest_default = {
   "entry-client": [
     {
       type: "script",
-      href: "/assets/entry-client.6a1fa440.js"
+      href: "/assets/entry-client.b0117054.js"
     },
     {
       type: "style",
