@@ -1,1 +1,0 @@
-This folder contains the built output assets for the worker "solid-start-2022-09-30" generated at 2022-10-03T08:45:34.756Z.
