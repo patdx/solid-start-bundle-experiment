@@ -1,0 +1,12 @@
+diff --git a/index.js b/index.js
+index 13a5e1623c4ad5bf6ab02e3702af16d25221db9d..a59cda2ac15f896272e424dafc926a4659bc62b8 100644
+--- a/index.js
++++ b/index.js
+@@ -156,6 +156,7 @@ export default function (miniflareOptions = {}) {
+         plugins: [
+           json(),
+           nodeResolve({
++            browser: true,
+             preferBuiltins: true,
+             exportConditions: ["worker", "solid"]
+           }),

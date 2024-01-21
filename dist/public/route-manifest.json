@@ -2,11 +2,11 @@
   "/": [
     {
       "type": "script",
-      "href": "/assets/index.af6c29ac.js"
+      "href": "/assets/index.f572890e.js"
     },
     {
       "type": "script",
-      "href": "/assets/entry-client.b0117054.js"
+      "href": "/assets/entry-client.0e635511.js"
     },
     {
       "type": "style",
@@ -16,7 +16,7 @@
   "entry-client": [
     {
       "type": "script",
-      "href": "/assets/entry-client.b0117054.js"
+      "href": "/assets/entry-client.0e635511.js"
     },
     {
       "type": "style",
